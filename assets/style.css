@@ -1,0 +1,18 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  margin: 2rem;
+}
+.logo .bold { font-weight: 700; }
+.logo .light { color: #aaa; }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.project {
+  background: #eee;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
